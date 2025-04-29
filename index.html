@@ -6,18 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="root">loading...</div>
     <script type="importmap">
         {
           "imports": {
             "lodash-es": "./dist/prebundle/lodash-es.mjs",
-            "react": "./dist/prebundle/react.mjs"
+            "react": "./dist/prebundle/react.mjs",
+            "react-dom": "./dist/prebundle/react-dom.mjs"
           }
         }
       </script>
-      <script type="module">
-        import { add } from 'lodash-es';
-        import {useState} from 'react';
-        console.log(add(1, 2),useState);
-      </script>
+      <script type="module" src="./src/index.mjs"></script>
 </body>
 </html>
