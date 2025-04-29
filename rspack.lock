@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "entries": {
+    "https://www.unpkg.com/react@^19.1.0": {
+      "resolved": "https://www.unpkg.com/react@^19.1.0",
+      "integrity": "sha512-zMH90REH6jiwartcvbLHqKMP6K3o4/glF7hfIRCJa2jkPfuBfoayl9xM26bvIs77e7d60IcLgcPN06yNWtF1OQ==",
+      "content_type": "text/javascript; charset=utf-8",
+      "valid_until": 1777435991079,
+      "etag": null
+    },
+    "https://www.unpkg.com/react-dom@^19.1.0": {
+      "resolved": "https://www.unpkg.com/react-dom@^19.1.0",
+      "integrity": "sha512-e3jUjb8rboR7W6PaqSLbBEg6bRxQEu8qp79DJ0QdplzEnuXJnI2RQV8LFAvFV+GAeWIBJ5zniAVHGXA6l4Cfxg==",
+      "content_type": "text/javascript; charset=utf-8",
+      "valid_until": 1777435991079,
+      "etag": null
+    }
+  }
+}
