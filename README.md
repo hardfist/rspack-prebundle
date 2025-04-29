@@ -1,0 +1,2 @@
+# rspack-prebundle
+prebundle-package
