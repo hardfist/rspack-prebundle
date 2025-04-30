@@ -6,6 +6,7 @@
   "scripts": {
     "prebundle": "rspack --config ./rspack.config.js",
     "prebundle:w": "webpack --config ./rspack.config.js",
+    "prebundle:esbuild": "node scripts/build.js",
     "preview": "serve",
     "start": "pnpm prebundle && pnpm preview"
   },
