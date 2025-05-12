@@ -1,5 +1,3 @@
-import { App } from './app.mjs'
-import {render} from 'react-dom';
-import * as xxx from 'react-dom';
+import { answer } from './app.mjs'
 
-render(App(),document.getElementById('root'));
+document.getElementById('root').innerHTML = answer.toString();

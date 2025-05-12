@@ -4,11 +4,12 @@
   "description": "prebundle-package",
   "main": "index.js",
   "scripts": {
-    "prebundle": "rspack --config ./rspack.config.js",
-    "prebundle:w": "webpack --config ./rspack.config.js",
+    "prebundle": "rspack --config ./rspack.prebundle.config.js",
+    "bundle:w": "webpack --config ./rspack.config.js",
+    "prebundle:w": "webpack --config ./rspack.prebundle.config.js",
     "prebundle:esbuild": "node scripts/build.js",
     "preview": "serve",
-    "start": "pnpm prebundle && pnpm preview"
+    "start": "pnpm prebundle:w && pnpm bundle:w && pnpm preview"
   },
   "repository": {
     "type": "git",
@@ -22,9 +23,7 @@
   },
   "homepage": "https://github.com/hardfist/rspack-prebundle#readme",
   "dependencies": {
-    "lodash-es": "^4.17.21",
-    "react": "^18",
-    "react-dom": "^18"
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
     "@rspack/cli": "1.3.8",

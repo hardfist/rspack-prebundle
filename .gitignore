@@ -270,3 +270,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+
+webpack.lock.data
+rspack.lock.data
+rspack.lock 
+webpack.lock

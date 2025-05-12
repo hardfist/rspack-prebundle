@@ -639,7 +639,7 @@
   "https://www.unpkg.com/lodash-es@4.17.21/zipObjectDeep.js": { "integrity": "sha512-CBFDcQJ3EofKFt12AP9icdYSX+l2HCAHtGyRq2OIKC3zuo1YMSRi/4bqFFpf8cnafXfh7gf9UdxGhQFniZ6Giw==", "contentType": "text/javascript; charset=utf-8" },
   "https://www.unpkg.com/lodash-es@4.17.21/zipWith.js": { "integrity": "sha512-IkUMUlP26HGwHF+5Mgi6CdIbZTRACDpp7j/f5x04041UVWF9a5s+HvxB4vHX02Q9I5FSriwS3urUBL6A8z9tfw==", "contentType": "text/javascript; charset=utf-8" },
   "https://www.unpkg.com/lodash-es@^4.17.21": { "resolved": "https://www.unpkg.com/lodash-es@4.17.21/lodash.js", "integrity": "sha512-eMr62HE3NP1oS5CfsYAeko++2SIIV6amMhLIP1M8I12TQrA79jr1IqZFiy2BLBlDvisK1uB2suY2Cq27LSjBBQ==", "contentType": "text/javascript; charset=utf-8" },
-  "https://www.unpkg.com/react-dom@^19.1.0": { "resolved": "https://www.unpkg.com/react-dom@19.1.0/index.js", "integrity": "sha512-e3jUjb8rboR7W6PaqSLbBEg6bRxQEu8qp79DJ0QdplzEnuXJnI2RQV8LFAvFV+GAeWIBJ5zniAVHGXA6l4Cfxg==", "contentType": "text/javascript; charset=utf-8" },
-  "https://www.unpkg.com/react@^19.1.0": { "resolved": "https://www.unpkg.com/react@19.1.0/index.js", "integrity": "sha512-zMH90REH6jiwartcvbLHqKMP6K3o4/glF7hfIRCJa2jkPfuBfoayl9xM26bvIs77e7d60IcLgcPN06yNWtF1OQ==", "contentType": "text/javascript; charset=utf-8" },
+  "https://www.unpkg.com/react-dom@^18": { "resolved": "https://www.unpkg.com/react-dom@18.3.1/index.js", "integrity": "sha512-vYLi95VDZ1ZCaQ483UtGkp+YuAyxl1lSHLqakv3jdkAI7bbKBv/cd4ao6EVo6a6tmUs7XGmUHEr9Hna6ErgkTA==", "contentType": "text/javascript; charset=utf-8" },
+  "https://www.unpkg.com/react@^18": { "resolved": "https://www.unpkg.com/react@18.3.1/index.js", "integrity": "sha512-JUEuiJdLg1gvpH7JB8tNKjC5AnoZIVYJlXmiRCWIK+hLklSMB/hzCb4NCfD1w/GE2FbcMjr29/I2o8Pz274c9A==", "contentType": "text/javascript; charset=utf-8" },
   "version": 1
 }

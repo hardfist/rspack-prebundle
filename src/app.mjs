@@ -1,7 +1,2 @@
-import {createElement} from 'react';
-
-export function App(){
-    return (
-        createElement('div', null, 'Hello World')
-    );
-}
+import {add} from 'lodash-es'
+export const answer = add(10,32);
